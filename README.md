@@ -3,8 +3,11 @@ CSV Parsing Problem
 How to run:
 
 In a Linux environment (I am using Ubuntu), run the command:
+
 `python3 [full/path/to]main.py [input file] [output file]`
+
 for example:
+
 `python3 main.py sample.csv testout.csv`
 
 The input and output files need to/will be in the same folder as the python file.
@@ -17,11 +20,12 @@ Python packages included in this file are:
 - pytz
 
 All but click should be in the standard Python library, but any Python package maintained on PyPi can be installed with:
+
 `pip install [package-name]`
 
 Notes of my thought process:
-At the end of the .py file you can see how I organized my thoughts on how to approach the structure of the method.
-I generally use type hinting to help me keep my code organized, as I come from a Java/strongly typed background, although in "first pass" coding scenarios, a bit like this, sometimes it falls by the wayside, so it may be hit and miss throughout this sample.
+- At the end of the .py file you can see how I organized my thoughts on how to approach the structure of the method.
+- I generally use type hinting to help me keep my code organized, as I come from a Java/strongly typed background, although in "first pass" coding scenarios, a bit like this, sometimes it falls by the wayside, so it may be hit and miss throughout this sample.
 
 Some aspects I would like to solve/consider further include:
 - The "computer" decimal precision printing on TotalDuration for some entries.
